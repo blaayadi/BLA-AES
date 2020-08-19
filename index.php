@@ -13,10 +13,10 @@
 	if(isset($_POST['mailform'])) {
 	   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
 	      $header="MIME-Version: 1.0\r\n";
-	      $header.='From:"BLAAYADI"<blaayadi@mail.com>'."\n";
+	      $header.='From:"RACHID75"<rachid75.HAMZAOUI@gmail.com>'."\n";
 	      $header.='Content-Type:text/html; charset="uft-8"'."\n";
           $header.='Content-Transfer-Encoding: 8bit';
-          $Destinataire="blaayadi@ogmail.com,s.laayadi@gmail.com";
+          $Destinataire="";
 
 	      $message='
 	      <html>
