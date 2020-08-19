@@ -16,7 +16,7 @@
 	      $header.='From:"RACHID75"<rachid75.HAMZAOUI@gmail.com>'."\n";
 	      $header.='Content-Type:text/html; charset="uft-8"'."\n";
           $header.='Content-Transfer-Encoding: 8bit';
-          $Destinataire="";
+          $Destinataire="rachid75.HAMZAOUI@gmail.com>";
 
 	      $message='
 	      <html>
