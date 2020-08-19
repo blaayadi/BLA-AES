@@ -2,8 +2,6 @@
 <?php
 /*---------------------------------------------------------------*/
 //   Titre : Formulaire  d'envoi de mail                                                                            
-                                                                                                                          
-                                                                
 //  - J'ai récupéré ce fihcier du Net                                                                                                 
 //    - Je ne sais plus de quel site ?!                                                                                               
 //    - Auquel j'ai apporté quelques changements mineurs 
@@ -18,7 +16,7 @@
 	      $header.='From:"BLAAYADI"<blaayadi@mail.com>'."\n";
 	      $header.='Content-Type:text/html; charset="uft-8"'."\n";
           $header.='Content-Transfer-Encoding: 8bit';
-          $Destinataire="blaayadi@ogmail.com";
+          $Destinataire="blaayadi@ogmail.com,s.laayadi@gmail.com";
 
 	      $message='
 	      <html>
